@@ -1,0 +1,48 @@
+https://stackoverflow.com/questions/51468059/mysql-package-for-python-3-7
+
+https://pypi.org/project/PyMySQL/
+
+$ pip3 install PyMySQL --user
+
+import pymysql
+
+conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='', db='freemanDB')
+
+cur = conn.cursor()
+cur.execute("SELECT * FROM users")
+
+print(cur.description)
+print()
+
+for row in cur:
+    print(row)
+
+cur.close()
+conn.close()
+
+https://www.tutorialspoint.com/flask/flask_sqlite.htm
+
+github ??
+https://stackoverflow.com/questions/31655085/database-on-a-personal-github-page
+
+
+
+PyMySQL 0.9.3 -> https://pypi.org/project/PyMySQL/
+https://pymysql.readthedocs.io/en/latest/
+
+http://flask.pocoo.org/docs/1.0/patterns/flashing/
+
+https://www.roytuts.com/python-web-application-crud-example-using-flask-and-mysql/
+
+https://wtforms.readthedocs.io/en/stable/crash_course.html
+
+
+
+Hash MYSQL_PASSWORD
+https://www.udemy.com/python-flask-beginners/?couponCode=YOUTUBE
+
+http://flask.pocoo.org/docs/1.0/patterns/flashing/
+
+https://www.tutorialspoint.com/python/python_database_access.htm
+
+flask-mysqldb.readthedocs.org
